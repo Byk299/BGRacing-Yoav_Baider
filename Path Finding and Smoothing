@@ -14,7 +14,7 @@ right_cones = data[data['side'] == 'right'][['x', 'y']].to_numpy()
 # Computing the midpoints
 midpoints = (left_cones + right_cones) / 2
 
-# Smoothing function
+# Appplying a smoothing function
 def smooth_path(path, alpha):
     smoothed_path = np.copy(path)
     for i in range(1, len(path) - 1):
@@ -42,7 +42,7 @@ plt.figure(figsize=(20, 12))
 plt.plot(left_cones[:, 0], left_cones[:, 1], 'o', label='Left Cones')
 plt.plot(right_cones[:, 0], right_cones[:, 1], 'o', label='Right Cones')
 plt.plot(midpoints[:, 0], midpoints[:, 1], '--', label='Midpoints (Initial Path)')
-plt.plot(smooth_path[:, 0], smooth_path[:, 1], '-', label='Final Smooth Path')
+plt.plot(smooth_path[:, 0], smooth_path[:, 1], '-', label='Final Smoothed Path')
 plt.legend()
 plt.xlabel("X")
 plt.ylabel("Y")
