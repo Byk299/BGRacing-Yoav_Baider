@@ -16,8 +16,7 @@ Finally, using Google Collab I combined the whole process along with 2D plotting
 1. Download the CSV file labeled `BrandsHatchLayout.csv`
 2. Go to the given link: [BGRacing Home Assignment- Yoav Baider](https://colab.research.google.com/drive/1ZLwXCB32Va_sp_vBhUO_KQgxqAJ-JoiE?usp=sharing)
 3. In the tab, go to the files and upload `BrandsHatchLayout.csv` into content/sample_data
-4. Next, press the *Play* button to run the program
-
-
-
+![image1](https://github.com/user-attachments/assets/f640e77e-69d2-4712-bd06-83df48fc6547)
+5. Next, press the *Play* button to run the program
+![image2](https://github.com/user-attachments/assets/7222e37e-87ce-4084-a2f6-b3d47235d8e4)
 
